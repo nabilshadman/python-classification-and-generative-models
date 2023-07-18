@@ -6,15 +6,15 @@ This is an applied machine learning project that consists of **two** parts:
 
 We use Python's data science stack (i.e. numpy, pandas, matplotlib, scikit-learn, jupyter) for this work.  
 
-## 2. Analysis and Classification of Music Genre Dataset (Part 1)  
+# 2. Analysis and Classification of Music Genre Dataset (Part 1)  
 For part 1, we use a modified version of the [GTZAN Dataset - Music Genre Classification](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification). The dataset is a collection of music of 10 genres and each genre has 100 music samples of parameterised features. Our work demonstrates the application and evaluation of classification algorithms (e.g. Logistic Regression, Support Vector Machines). The notebook includes exploratory data analysis, data preprocessing, model training, and evaluation. It provides a comparative analysis of the classifiers, allowing users to understand the strengths and weaknesses of each model in the classification task.  
 
 
-## 3. Generative Models and Parameter Inference (Part 2)  
+# 3. Generative Models and Parameter Inference (Part 2)  
 For part 2, we shift focus to multivariate Gaussian distributions. We generate samples from a distribution and estimate the parameters of the model (i.e. distribution). We then carry out classification experiments on the data of two classes to find how a limited number of training samples has an impact on the classification. We also consider Gaussian mixture models (GMMs), where given a set of observations, we identify the GMM (i.e. find the most probable values of the parameters).  
 
 
-## 4. Run Notebook
+# 4. Run Notebook
 We recommend installing **Anaconda Distribution** before running the notebook as Anaconda provides a powerful package management system called Conda, which can handle complex software environments and ensures compatibility between different packages. Conda simplifies the setup process and avoids version conflicts.  
 
 (1) Download Anaconda Distribution from this [page](https://www.anaconda.com/download) and run the installer.  
