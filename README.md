@@ -1,5 +1,5 @@
 # 1. Classification and Generative Models  
-This is an applied machine learning project that consists of **two** parts:  
+This is an applied machine learning [project](https://github.com/nabilshadman/python-classification-and-generative-models/blob/main/classification_and_generative_models.ipynb) that consists of **two** parts:  
 
 (1) Analysis and **classification** of a music genre data set  
 (2) **Generative** models and parameter inference  
