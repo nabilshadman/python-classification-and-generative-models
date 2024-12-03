@@ -1,30 +1,72 @@
-# 1. Classification and Generative Models  
-This is an applied machine learning [project](https://github.com/nabilshadman/python-classification-and-generative-models/blob/main/classification_and_generative_models.ipynb) that consists of **two** parts:  
+# Classification and Generative Models in Machine Learning
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)  
 
-(1) Analysis and **classification** of a music genre data set  
-(2) **Generative** models and parameter inference  
+## Overview
+This repository implements advanced machine learning techniques focusing on classification algorithms and generative models. The project demonstrates practical applications of machine learning through two comprehensive case studies: music genre classification and parameter inference in generative models.
 
-We use Python's data science stack (i.e. numpy, pandas, matplotlib, scikit-learn, jupyter) for this work.  
+## Project Structure
+The project consists of two main components:
 
-# 2. Analysis and Classification of Music Genre Dataset (Part 1)  
-For part 1, we use a modified version of the [GTZAN Dataset - Music Genre Classification](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification). The dataset is a collection of music of 10 genres and each genre has 100 music samples of parameterised features. Our work demonstrates the application and evaluation of classification algorithms (e.g. Logistic Regression, Support Vector Machines). The notebook includes exploratory data analysis, data preprocessing, model training, and evaluation. It provides a comparative analysis of the classifiers, allowing users to understand the strengths and weaknesses of each model in the classification task.  
+1. **Music Genre Classification**
+   - Implementation of multiple classification algorithms
+   - Analysis of the GTZAN Dataset
+   - Comparative evaluation of model performance
+   
+2. **Generative Models**
+   - Multivariate Gaussian distribution analysis
+   - Parameter estimation and inference
+   - Gaussian Mixture Model (GMM) implementation
+   - Classification experiments with limited training data
 
+## Technologies
+- Python Data Science Stack:
+  - NumPy
+  - Pandas
+  - Matplotlib
+  - Scikit-learn
+  - Jupyter Notebook
 
-# 3. Generative Models and Parameter Inference (Part 2)  
-For part 2, we shift focus to multivariate Gaussian distributions. We generate samples from a distribution and estimate the parameters of the model (i.e. distribution). We then carry out classification experiments on the data of two classes to find how a limited number of training samples has an impact on the classification. We also consider Gaussian mixture models (GMMs), where given a set of observations, we identify the GMM (i.e. find the most probable values of the parameters).  
+## Part 1: Music Genre Classification
+This section utilizes a modified version of the [GTZAN Dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification), comprising 1000 music samples across 10 genres. The implementation includes:
 
+- Comprehensive exploratory data analysis
+- Data preprocessing and feature engineering
+- Implementation of multiple classifiers:
+  - Logistic Regression
+  - Support Vector Machines
+- Detailed model evaluation and performance comparison
+- Visualization of results and insights
 
-# 4. Run Notebook
-We recommend installing **Anaconda Distribution** before running the notebook as Anaconda provides a powerful package management system called Conda, which can handle complex software environments and ensures compatibility between different packages. Conda simplifies the setup process and avoids version conflicts.  
+## Part 2: Generative Models and Parameter Inference
+The second component focuses on probabilistic modeling and includes:
 
-(1) Download Anaconda Distribution from this [page](https://www.anaconda.com/download) and run the installer.  
+- Implementation of multivariate Gaussian distributions
+- Sample generation and parameter estimation
+- Analysis of classification performance with limited training data
+- Gaussian Mixture Model parameter optimization
+- Empirical evaluation of model performance
 
-(2) Once installation is finished, launch Anaconda Navigator, which provides a graphical user interface to manage your Anaconda environment.  
+## Installation and Setup
 
-(3) In Anaconda Navigator, you should see a button labeled "Launch" under the Jupyter Notebook section. Click on it to start Jupyter Notebook in your default web browser.  
+### Prerequisites
+- Anaconda Distribution (Recommended)
+- Python 3.7 or higher
 
-(4) Navigate to the directory of this project in your system.  
+### Setup Instructions
 
-(5) Open the notebook ([classification_and_generative_models.ipynb](https://github.com/nabilshadman/python-classification-and-generative-models/blob/main/classification_and_generative_models.ipynb)).   
+1. **Install Anaconda**
+   - Download [Anaconda Distribution](https://www.anaconda.com/download)
+   - Follow the installation wizard for your operating system
 
-(6) In the toolbar, click on the option "Run" and then select "Run All Cells" from the dropdown menu. The notebook will start executing each cell sequentially from top to bottom.    
+2. **Launch Jupyter Notebook**
+   - Open Anaconda Navigator
+   - Click "Launch" under Jupyter Notebook
+
+3. **Run the Project**
+   - Navigate to the project directory
+   - Open `classification_and_generative_models.ipynb`
+   - Select "Run" → "Run All Cells" from the toolbar
+
+## Notebook Access
+The complete implementation is available in our [Jupyter notebook](https://github.com/nabilshadman/python-classification-and-generative-models/blob/main/classification_and_generative_models.ipynb).  
