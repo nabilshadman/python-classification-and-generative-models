@@ -1,4 +1,4 @@
-# Classification and Generative Models in Machine Learning
+# Classification and Generative Modeling with Machine Learning
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)  
 
